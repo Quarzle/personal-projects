@@ -5,6 +5,10 @@ html, body {
     background-color: #0C1618;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 .pg-title{
     margin: auto;
     width: 25%;
@@ -19,6 +23,47 @@ header {
     text-align: center;
     color: #FAF4D3;
     margin-bottom: 0;
+}
+
+nav ul{
+    margin: auto;
+    width: 70%;
+    background-color: #0C1618;
+    padding: 0px;
+    text-align: center;
+    color: #FAF4D3;
+}
+
+nav ul li{
+    width: 10%;
+    display: inline-block;
+    background-color: #004643;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    color: #FAF4D3;
+}
+
+nav ul li:hover{
+    background-color: #043f3d;
+}
+
+nav ul li.active {
+    width: 10%;
+    display: inline-block;
+    background-color: #004643;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #FAF4D3;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #FAF4D3;
 }
 
 footer {
