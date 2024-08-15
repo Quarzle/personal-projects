@@ -1,2 +1,4 @@
-A website with many of my personal projects \n
-go visit the site! :)
+<h1>A website with many of my personal projects</h1>
+<p>
+    go visit the site! :)
+</p>

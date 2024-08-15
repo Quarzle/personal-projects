@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+main {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+ul li {
+    width: 47%; /* Ensure the two items fit within the container with space in between */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(201, 201, 201);
+    list-style: none;
+    margin: 10px 0;
+    padding: 12px;
+}
+
+.song-info {
+    flex: 1;
+    margin-right: 10px;
+}
+
+audio {
+    flex-shrink: 0;
+}
