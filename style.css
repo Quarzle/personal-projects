@@ -108,6 +108,17 @@ ul {
     justify-content: space-between;
 }
 
+a h4{
+    text-align: center;
+    color: #FAF4D3;
+    text-decoration: none;
+}
+
+a{
+    color: #FAF4D3;
+    text-decoration: none;
+}
+
 ul li {
     width: 47%; /* Ensure the two items fit within the container with space in between */
     display: flex;
